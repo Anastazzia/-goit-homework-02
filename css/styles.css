@@ -3,6 +3,7 @@
     --text-color: #757575;
     --accent-color: #2196F3;
     --primary-bg-color: #FFFFFF;
+    --text-footer: #FFFFFF;
 
 }
 
@@ -18,6 +19,7 @@ body {
 
 .logo {
     color: var(--primary-text-color);
+    font-size: 26px;
 }
 .accent {
     color: var(--accent-color);
@@ -32,24 +34,35 @@ body {
 .site_nav :hover,
 .site_nav :focus{
     color: var(--accent-color);
+    font-size: 14px;
 }
 
 .site_nav .link.current {
     color: var(--accent-color);
 }
 
+.section-team {
+    background-color: #F5F4FA;
+}
 .section-title {
     color: var(--primary-text-color);
+    font-size: 14px;
+}
+
+.section-title-main {
+    font-size: 36px;
 }
 
 .section-text {
     color: var(--text-color);
+    font-size: 14px;
 }
 
 /*auth_nav*/
 
 .auth_nav-title a {
     color: var(--text-color);
+    font-size: 14px;
 }
 
 .auth_nav-title :hover,
@@ -60,19 +73,48 @@ body {
 
 /*button*/
 
-.heat {
+.bg {
     color: var(--primary-bg-color);
     background-color: #2F303A;
+    font-size: 44px;
 }
 
 .button-primary{
     color: var(--primary-bg-color);
     background-color: var(--accent-color);
+    font-size: 16px;
 }
 /*Поправки маркеровок*/
 
 ul {
     list-style: none;
+}
+
+/*Команда*/
+.section-title-team {
+    font-size: 16px;
+    
+}
+
+.section-text-team {
+    font-size: 16px;
+    color: rgba(117, 117, 117, 1);
+
+}
+
+/*Футер*/
+
+.logo-footer {
+    color: var(--text-footer);
+    font-size: 26px;
+}
+
+.footer-adress a{
+    color: var(--text-footer);
+}
+
+.footer-adress-contact a{
+    color: rgba(255, 255, 255, 0.6)
 }
 
 
