@@ -1,3 +1,92 @@
-.site-nav :hover {
-    color: #2196F3;
+:root {
+    --primary-text-color: rgb(0, 0, 0);
+    --text-color: #757575;
+    --accent-color: #2196F3;
+    --primary-bg-color: #FFFFFF;
+
 }
+
+
+/*body*/
+
+body {
+    background-color: var(--primary-bg-color);
+    color: var(--primary-text-color);
+}
+
+/*logo*/
+
+.logo {
+    color: var(--primary-text-color);
+}
+.accent {
+    color: var(--accent-color);
+}
+
+/*.site_nav + text*/
+
+.site_nav a {
+    color: var(--primary-text-color);
+    
+}
+.site_nav :hover,
+.site_nav :focus{
+    color: var(--accent-color);
+}
+
+.site_nav .link.current {
+    color: var(--accent-color);
+}
+
+.section-title {
+    color: var(--primary-text-color);
+}
+
+.section-text {
+    color: var(--text-color);
+}
+
+/*auth_nav*/
+
+.auth_nav-title a {
+    color: var(--text-color);
+}
+
+.auth_nav-title :hover,
+.auth_nav-title :focus{
+    color: var(--accent-color);
+}
+
+
+/*button*/
+
+.heat {
+    color: var(--primary-bg-color);
+    background-color: #2F303A;
+}
+
+.button-primary{
+    color: var(--primary-bg-color);
+    background-color: var(--accent-color);
+}
+/*Поправки маркеровок*/
+
+ul {
+    list-style: none;
+}
+
+
+
+/*цвет основного текста #212121 */
+
+/*вторичный цвет текста #757575 */
+
+/*цвет перед кнопкой #FFFFFF */
+
+/*вторичный цвет фона #F5F4FA */
+
+/*акцент #2196F3 */
+
+/*почта и номер в футере rgba(255, 255, 255, 0.6)
+*/
+
