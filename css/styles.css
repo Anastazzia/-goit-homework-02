@@ -13,6 +13,11 @@
 body {
     background-color: var(--primary-bg-color);
     color: var(--primary-text-color);
+    font-family: 'Roboto' , sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Roboto', sans-serif;
 }
 
 /*logo*/
@@ -20,6 +25,10 @@ body {
 .logo {
     color: var(--primary-text-color);
     font-size: 26px;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    
 }
 .accent {
     color: var(--accent-color);
@@ -29,7 +38,9 @@ body {
 
 .site_nav a {
     color: var(--primary-text-color);
-    
+    letter-spacing: 0.02em;
+    line-height: 1.14;
+    text-decoration: none;
 }
 .site_nav :hover,
 .site_nav :focus{
@@ -41,28 +52,83 @@ body {
     color: var(--accent-color);
 }
 
-.section-team {
-    background-color: #F5F4FA;
+/*button*/
+
+.bg {
+    color: var(--primary-bg-color);
+    background-color: #2F303A;
+    font-size: 44px;
+    line-height: 1.36;
+    font-weight: 900;
+    text-align: center;
+    text-decoration: none;
 }
+
+.button-primary {
+    color: var(--primary-bg-color);
+    background-color: var(--accent-color);
+    font-size: 16px;
+    font-family: inherit;
+    text-align: center;
+    cursor: pointer;
+}
+
+/*СЕКЦІЇ*/
+
 .section-title {
     color: var(--primary-text-color);
     font-size: 14px;
+    letter-spacing: 0.03em;
+    line-height: 1.14;
 }
 
 .section-title-main {
     font-size: 36px;
+    letter-spacing: 0.06em;
+    line-height: 1.16;
+    font-weight: 700;
+    text-align: center;
+
 }
 
 .section-text {
     color: var(--text-color);
     font-size: 14px;
+    letter-spacing: 0.03em;
+    line-height: 1.71;
 }
+
+/* КОМАНДА */
+
+.section-team {
+    background-color: #F5F4FA;
+}
+
+.section-title-team{
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.18;
+        letter-spacing: 0.03em;
+        text-align: center;
+
+}
+
+.section-text-team{
+    text-align: center;
+    line-height: 1.18;
+    font-weight: 400;
+        font-size: 16px;
+}
+
 
 /*auth_nav*/
 
 .auth_nav-title a {
     color: var(--text-color);
     font-size: 14px;
+    letter-spacing: 0.02em;
+    line-height: 1.14;
+    text-decoration: none;
 }
 
 .auth_nav-title :hover,
@@ -71,19 +137,7 @@ body {
 }
 
 
-/*button*/
 
-.bg {
-    color: var(--primary-bg-color);
-    background-color: #2F303A;
-    font-size: 44px;
-}
-
-.button-primary{
-    color: var(--primary-bg-color);
-    background-color: var(--accent-color);
-    font-size: 16px;
-}
 /*Поправки маркеровок*/
 
 ul {
@@ -93,12 +147,14 @@ ul {
 /*Команда*/
 .section-title-team {
     font-size: 16px;
+    letter-spacing: 0.03em;
     
 }
 
 .section-text-team {
     font-size: 16px;
     color: rgba(117, 117, 117, 1);
+    letter-spacing: 0.03em;
 
 }
 
@@ -107,15 +163,51 @@ ul {
 .logo-footer {
     color: var(--text-footer);
     font-size: 26px;
+    font-family: 'Raleway';
+    letter-spacing: 0.03em;
+    text-decoration: none;
 }
 
 .footer-adress a{
     color: var(--text-footer);
+    font-size: 14px;
 }
 
 .footer-adress-contact a{
-    color: rgba(255, 255, 255, 0.6)
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 14px;
 }
+
+/*Портфолио*/
+
+.section-button {
+    font-size: 16px;
+    color: var(--primary-text-color);
+    font-family: inherit;
+}
+.section-button-text{
+    font-family: inherit;
+}
+
+.pointer{
+    cursor: pointer;
+}
+.section-button-text :hover,
+.section-button-text :focus{
+    color: var(--primary-bg-color);
+    background-color: var(--accent-color);
+}
+.section-title-portfolio {
+    font-size: 18px;
+    color: var(--primary-text-color);
+}
+.section-text-portfolio {
+    font-size: 16px;
+    color: rgba(117, 117, 117, 1);
+}
+
+
+
 
 
 
