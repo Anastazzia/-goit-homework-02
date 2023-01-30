@@ -60,21 +60,27 @@ body {
 .bg {
     color: var(--primary-bg-color);
     background-color: var(--bg-color);
+    font-family: 'Raleway', sans-serif;
     font-size: 44px;
     line-height: 1.36;
     font-weight: 900;
     text-align: center;
     text-decoration: none;
-    text-transform: capitalize;
+    letter-spacing: 0.06em;
+        text-transform: uppercase;
+    
 }
 
 .button-primary {
     color: var(--primary-bg-color);
     background-color: var(--accent-color);
     font-size: 16px;
-    font-family: 'Raleway', sans-serif;
+    font-family: inherit;
     text-align: center;
     cursor: pointer;
+    letter-spacing: 0.06em;
+    line-height: 30px;
+    font-weight: 700;
 }
 
 /*СЕКЦІЇ*/
