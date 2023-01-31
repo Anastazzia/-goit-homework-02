@@ -65,7 +65,6 @@ body {
     letter-spacing: 0.02em;
     line-height: 1.14;
     text-decoration: none;
-    font-family: 'Roboto', sans-serif;
 
 }
 
@@ -104,6 +103,7 @@ body {
     font-weight: 700;
     color: var(--primary-bg-color);
     background-color: var(--accent-color);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     
 }
 
@@ -112,7 +112,7 @@ body {
 .button-primary:focus{
     color: var(--primary-bg-color);
     background-color: var(--bg-button);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
 }
 
 /*СЕКЦІЇ*/
@@ -135,9 +135,7 @@ body {
     font-size: 36px;
     letter-spacing: 0.06em;
     line-height: 1.16;
-    font-weight: 700;
     text-align: center;
-    font-weight: 700;
 
 }
 
@@ -228,6 +226,7 @@ ul {
     font-weight: 500;
     letter-spacing: 0.03em;
     line-height: 1.62;
+    font-size: 16px;
 }
 .section-button-text :hover,
 .section-button-text :focus{
@@ -239,7 +238,6 @@ ul {
     font-size: 18px;
     color: var(--primary-text-color);
     letter-spacing: 0.06em;
-    font-weight: 700;
     font-family: 'Roboto', sans-serif;
     line-height: 2;
 }
